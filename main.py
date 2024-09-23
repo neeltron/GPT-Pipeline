@@ -12,7 +12,7 @@ eng = matlab.engine.connect_matlab()
 
 openai.api_key = 'API_KEY_HERE'
 messages = [ {"role": "system", "content": 
-              "You are a intelligent assistant."} ]
+              "Just a test."} ]
 while True:
     message = input("User : ")
     if message:
